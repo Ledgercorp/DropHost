@@ -1,0 +1,2 @@
+[functions.public-site]
+verify_jwt = false
