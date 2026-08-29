@@ -14,8 +14,8 @@
   },
   "type": "module",
   "dependencies": {
-    "@base44/sdk": "^0.8.43",
-    "@base44/vite-plugin": "^1.0.30",
+    "@base44/sdk": "^0.8.44",
+    "@base44/vite-plugin": "^1.0.32",
     "@supabase/supabase-js": "2.112.2",
     "jszip": "3.10.1",
     "react": "18.3.1",
