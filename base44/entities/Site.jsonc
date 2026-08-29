@@ -1,0 +1,23 @@
+{
+  "name": "Site",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Display name of the site"
+    },
+    "slug": {
+      "type": "string",
+      "description": "Unique URL-safe slug for the site"
+    },
+    "entryHtml": {
+      "type": "string",
+      "description": "Full HTML content of the index.html file"
+    }
+  },
+  "required": [
+    "name",
+    "slug",
+    "entryHtml"
+  ]
+}

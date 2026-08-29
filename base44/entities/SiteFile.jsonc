@@ -1,0 +1,27 @@
+{
+  "name": "SiteFile",
+  "type": "object",
+  "properties": {
+    "siteId": {
+      "type": "string",
+      "description": "ID of the parent Site"
+    },
+    "path": {
+      "type": "string",
+      "description": "Relative file path e.g. assets/app.js"
+    },
+    "fileUrl": {
+      "type": "string",
+      "description": "URL of the stored file"
+    },
+    "mimeType": {
+      "type": "string",
+      "description": "MIME type of the file"
+    }
+  },
+  "required": [
+    "siteId",
+    "path",
+    "fileUrl"
+  ]
+}
