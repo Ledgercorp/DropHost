@@ -17,6 +17,7 @@
     "@base44/sdk": "^0.8.44",
     "@base44/vite-plugin": "^1.0.32",
     "@supabase/supabase-js": "2.112.2",
+    "@tanstack/react-query": "^4.44.0",
     "jszip": "3.10.1",
     "lucide-react": "^0.460.0",
     "react": "18.3.1",
